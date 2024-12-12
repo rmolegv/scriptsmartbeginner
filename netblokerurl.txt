@@ -1,0 +1,2 @@
+urls=(rt.ru 1tv.ru);for url in "${urls[@]}"; do echo "127.0.0.1 $url" >> /etc/hosts; done; systemctl restart network
+
